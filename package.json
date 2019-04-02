@@ -1,0 +1,26 @@
+{
+  "name": "risingyoutubestar",
+  "version": "1.0.0",
+  "description": "This project aims to accomplish building a website \r where provide youtube channels information.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/index.js --output ./dist/main.js",
+    "build": "webpack --mode production ./src/index.js --output ./dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hck1205/risingyoutubestar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hck1205/risingyoutubestar/issues"
+  },
+  "homepage": "https://github.com/hck1205/risingyoutubestar#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
